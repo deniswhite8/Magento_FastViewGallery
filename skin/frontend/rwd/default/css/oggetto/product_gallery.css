@@ -1,0 +1,35 @@
+.catalog-product-container {
+    padding: 4px 4px 2px 0;
+    border: none;
+}
+
+.catalog-product-container:hover {
+    border: solid 2px #d8d8d8;
+    border-left: none;
+    padding: 2px 2px 0 0;
+}
+
+.gallery {
+    display: none;
+    padding: 2px;
+    background-color: white;
+    border: solid 2px #d8d8d8;
+    border-right: none;
+    position: absolute;
+    z-index: 999;
+    left: -108px;
+    top: -2px;
+    height: 101%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.product-gallery-item {
+    width: 100%;
+    margin-bottom: 5px;
+    border: solid 1px #ffffff;
+}
+
+.product-gallery-item:hover {
+    border-color: #3399cc;
+}
