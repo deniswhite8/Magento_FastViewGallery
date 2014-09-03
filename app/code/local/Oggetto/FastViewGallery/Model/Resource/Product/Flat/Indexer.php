@@ -66,8 +66,8 @@ class Oggetto_FastViewGallery_Model_Resource_Product_Flat_Indexer extends Mage_C
 
         $sql = new Zend_Db_Expr("UPDATE `{$flatTableName}` AS `e` SET `e`.`{$attribute->getAttributeCode()}` = " .
             "({$subSelect})");
-        $adapter->query($sql);
 
+        $adapter->query($sql);
         return $this;
     }
 }
