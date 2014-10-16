@@ -1,0 +1,24 @@
+{
+    "name": "oggetto/fastViewGallery",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "homepage": "https://github.com/deniswhite8/FastViewGallery",
+    "description": "Magento product fast view gallery module",
+    "authors": [
+        {
+        	"name": "Denis Belov",
+        	"email": "dbelov@oggettoweb.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "extra": {
+        "map": [
+            ["app/etc/modules/Oggetto_FastViewGallery.xml", "app/etc/modules/Oggetto_FastViewGallery.xml"],
+            ["app/code/local/Oggetto/FastViewGallery", "app/code/local/Oggetto/FastViewGallery"],
+            ["/skin/frontend/rwd/default/css/oggetto", "/skin/frontend/rwd/default/css/oggetto"],
+            ["/skin/frontend/rwd/default/js/oggetto", "/skin/frontend/rwd/default/js/oggetto"]
+        ]
+    }
+}
